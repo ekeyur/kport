@@ -32,7 +32,7 @@ ul {
 .namewrap{
   text-align: center;
   font-size: 100px;
-  margin-top: 230px;
+  margin-top: 150px;
 }
 .name{
   font-size: .7em;
@@ -64,14 +64,14 @@ a{
   align-items: center;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 568px) {
   body{
     background-position: 50% 50%;
     background-repeat: repeat-y;
     background-size: cover;
   }
   .name{
-    font-size: .4em;
+    font-size: .5em;
     color: white;
   }
   .position{
@@ -80,11 +80,11 @@ a{
   .namewrap{
     text-align: center;
     font-size: 100px;
-    padding-left: 50px;
     margin-top: 80px;
   }
 
 }
+
 @media only screen and (max-width: 887px) {
   body{
     background-repeat: repeat-y;
