@@ -1,0 +1,92 @@
+
+body{
+  background-image: url("background.jpg");
+  background-repeat:no-repeat;
+  background-size: cover;
+  color: white;
+  padding: 0;
+}
+
+li{
+  display: inline;
+  padding: 5px;
+}
+ul {
+  position: absolute;
+  top : 8px;
+  right: 8px;
+  display: block;
+}
+.projects img {
+  height: 200px;
+  width: 200px;
+  border-radius: 10px;
+  margin-left: 10px;
+  border: 5px solid rgb(241,173,0);
+  margin-bottom: 10px;
+}
+
+.right{
+  float: right;
+}
+.namewrap{
+  text-align: center;
+  font-size: 100px;
+  margin-top: 230px;
+}
+.name{
+  font-size: .7em;
+  color: white;
+}
+.position{
+  font-size: .4em;
+}
+
+.center{
+  text-align: center;
+}
+
+a{
+  color: white;
+}
+.portfolio{
+  margin-top: 100px;
+  margin-bottom: 25px;
+  color: white;
+  text-align: center;
+}
+
+.projects{
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (max-width: 600px) {
+  body{
+    background-position: 50% 50%;
+    background-repeat: repeat-y;
+    background-size: cover;
+  }
+  .name{
+    font-size: .4em;
+    color: white;
+  }
+  .position{
+    font-size: .2em;
+  }
+  .namewrap{
+    text-align: center;
+    font-size: 100px;
+    padding-left: 50px;
+    margin-top: 80px;
+  }
+
+}
+@media only screen and (max-width: 887px) {
+  body{
+    background-repeat: repeat-y;
+  }
+}
