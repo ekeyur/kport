@@ -1,9 +1,9 @@
 
 body{
-  background-image: url("background.jpg");
+  /*background-image: url("background.jpg");*/
   background-repeat:no-repeat;
   background-size: cover;
-  color: white;
+  color: red;
   padding: 0;
 }
 
@@ -35,7 +35,7 @@ ul {
 }
 .name{
   font-size: .7em;
-  color: white;
+  color: red;
 }
 .position{
   font-size: .4em;
@@ -51,18 +51,18 @@ ul {
 }
 
 a{
-  color: white;
+  color: red;
   text-decoration: none;
 }
 .portfolio{
   margin-top: 100px;
   margin-bottom: 25px;
-  color: white;
+  color: red;
   text-align: center;
 }
 
 .projects{
-  width: 65%;
+  width: 80%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -77,7 +77,7 @@ a{
   }
   .name{
     font-size: .5em;
-    color: white;
+    color: red;
   }
   .position{
     font-size: .2em;
