@@ -4,30 +4,80 @@
     <meta charset="utf-8">
     <title>Keyur's Portfolio</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cinzel|Poiret+One" rel="stylesheet">
+    <link rel="stylesheet" href="./font-awesome/css/font-awesome.css">
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/devicons.css">
-    <script src="./js/jquery.js"></script>
-    <script src="./js/smoothscroll.js"></script>
+    <script src="./js/angular.js"></script>
+    <script src="./js/portfolio.js"></script>
   </head>
-  <body>
-      <div class="right container-fluid">
-        <ul class="contact">
-          <li><a style="font-size: 22px;" href="keyur_resume_full_stack.pdf" target="_blank"><i class="fa fa-file-text-o" aria-hidden="true"></i></a></li>
-          <li><a style="font-size: 25px;" href="https://www.linkedin.com/in/keyur-patel-1b13496" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
-          <li><a style="font-size: 25px;" href="https://github.com/ekeyur" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></li>
-          <li><a style="font-size: 23px;" href="https://medium.com/@ekeyur" target="_blank"><i class="fa fa-medium" aria-hidden="true"></i></a></li>
+  <body ng-app="portfolio" ng-controller="portfolioController">
+    <nav class="container-fluid navigation">
+      <div class="left-navbar">
+        <ul>
+          <li ng-click="homeClicked()"><i class="fa fa-home fa-lg" aria-hidden="true"></i></li>
         </ul>
       </div>
-      <div class="namewrap center">
-        <h1 class="name">Keyur Patel</h1>
-        <h2 class="position">Full Stack Developer</h2>
+      <div class="right-navbar">
+        <ul>
+          <li ng-click="aboutClicked()" ng-class="active">about</li>
+          <li>/</li>
+          <li ng-click="portfolioClicked()" ng-class="active">portfolio</li>
+          <li>/</li>
+          <li ng-click="letschateClicked()" ng-class="active">let's chat</li>
+          <!-- <li><a style="font-size: 22px;" href="keyur_resume_full_stack.pdf" target="_blank"><i class="fa fa-file-text-o" aria-hidden="true"></i></a></li>
+          <li><a style="font-size: 25px;" href="https://www.linkedin.com/in/ekeyur" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+          <li><a style="font-size: 25px;" href="https://github.com/ekeyur" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+          <li><a style="font-size: 23px;" href="https://medium.com/@ekeyur" target="_blank"><i class="fa fa-medium" aria-hidden="true"></i></a></li> -->
+        </ul>
       </div>
-      <div class="portfolio">
+    </nav>
+
+    <!-- Home Container -->
+    <div ng-show="!homeshow" class="container greeting">
+      <h1 class="name">K &nbsp E &nbsp Y &nbsp U &nbsp R &nbsp; &nbsp; P &nbsp A &nbsp T &nbsp E &nbsp L</h1>
+      <h2 class="position">Full Stack Developer</h2>
+    </div>
+
+    <!-- About Container -->
+    <div ng-show="!aboutshow" class="container-fluid">
+      <div class="row col-lg-6 col-sm-12">
+        <img class="about-img" ng-src="img/about_letters.png" alt="about">
+      </div>
+      <div class="row col-lg-6 col-sm-12 about-text">
+        <p>Hi, My name is Keyur Patel. I have over 2 years of experience in Product Management. Presently, taking a stab at full stack development. I am passionate about building things that would solve simple problems we face in everyday life. In my free time, I like to run, play ping pong and explore the ever changing field of programming. </p>
+      </div>
+    </div>
+
+    <!-- Portfolio Container -->
+    <div ng-show="!portfolioshow" class="container-fluid">
+      <div class="row col-lg-8">
 
       </div>
-      <div class="project-parent">
+      <div class="row col-lg-4">
+        <img class="projects-img" ng-src="img/projects_letters.png" alt="about">
+      </div>
+    </div>
+
+    <!-- Let's Chat Container -->
+
+    <div ng-show="!letschatshow" class="container-fluid">
+      <div class="row col-lg-3 letschat">
+        <img class="letschat-img" ng-src="img/chat_letters.png" alt="about">
+      </div>
+      <div class="row col-lg-9">
+        <div class="letschatcontainer">
+          <a href="https://github.com/ekeyur" target="_blank"><i class="envelope fa fa-envelope" aria-hidden="true"></i></a>
+          <a href="https://www.linkedin.com/in/ekeyur" target="_blank"><i class="linkedin fa fa-linkedin-square"></i></a>
+          <a href="https://github.com/ekeyur" target="_blank"><i class="github fa fa-github-square"></i></a>
+          <a href="Keyur_Patel_2017.pdf" target="_blank"><i class="resume fa fa-file-text-o"></i></a>
+          <a href="https://medium.com/@ekeyur" target="_blank"><i class="medium fa fa-medium"></i></a>
+        </div>
+      </div>
+    </div>
+
+
+
+      <!-- <div class="project-parent">
       <div class="projects">
         <div class="hovereffect">
           <img src="img/grillber.png" alt="">
@@ -65,7 +115,8 @@
 				      </p>
             </div>
         </div>
-        </div>
-      </div>
+        </div> -->
+
+      <!-- </div> -->
   </body>
 </html>
