@@ -2,6 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
+
     <title>Keyur's Portfolio</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Cinzel|Poiret+One" rel="stylesheet">
@@ -14,16 +15,16 @@
     <nav class="container-fluid navigation">
       <div class="left-navbar">
         <ul>
-          <li ng-click="homeClicked()"><i class="fa fa-home fa-lg" aria-hidden="true"></i></li>
+          <li ng-click="homeClicked()"><i class="fa fa-home fa-2x" aria-hidden="true" ng-class="{active: !homeshow}"></i></li>
         </ul>
       </div>
       <div class="right-navbar">
         <ul>
-          <li ng-click="aboutClicked()" ng-class="active">about</li>
+          <li ng-click="aboutClicked()" ng-class="{active: !aboutshow}">about</li>
           <li>/</li>
-          <li ng-click="portfolioClicked()" ng-class="active">portfolio</li>
+          <li ng-click="portfolioClicked()" ng-class="{active: !portfolioshow}">portfolio</li>
           <li>/</li>
-          <li ng-click="letschateClicked()" ng-class="active">let's chat</li>
+          <li ng-click="letschateClicked()" ng-class="{active: !letschatshow}">let's chat</li>
           <!-- <li><a style="font-size: 22px;" href="keyur_resume_full_stack.pdf" target="_blank"><i class="fa fa-file-text-o" aria-hidden="true"></i></a></li>
           <li><a style="font-size: 25px;" href="https://www.linkedin.com/in/ekeyur" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
           <li><a style="font-size: 25px;" href="https://github.com/ekeyur" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></li>
@@ -50,7 +51,8 @@
 
     <!-- Portfolio Container -->
     <div ng-show="!portfolioshow" class="container-fluid">
-      <div class="row col-lg-8">
+      <div class="portfolios row col-lg-7">
+
 
       </div>
       <div class="row col-lg-4">
@@ -64,7 +66,7 @@
       <div class="row col-lg-3 letschat">
         <img class="letschat-img" ng-src="img/chat_letters.png" alt="about">
       </div>
-      <div class="row col-lg-9">
+      <div class="row col-lg-8">
         <div class="letschatcontainer">
           <a href="https://github.com/ekeyur" target="_blank"><i class="envelope fa fa-envelope" aria-hidden="true"></i></a>
           <a href="https://www.linkedin.com/in/ekeyur" target="_blank"><i class="linkedin fa fa-linkedin-square"></i></a>

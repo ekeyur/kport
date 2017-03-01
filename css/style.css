@@ -23,11 +23,15 @@ li{
   display: inline;
   padding: 4px;
   font-family: Courier, sans-serif;
-
+  color : grey;
 }
 
 li:hover{
 color : #FFCA37;
+}
+
+ul{
+  padding-left: 1%;
 }
 
 .navigation{
@@ -39,7 +43,7 @@ color : #FFCA37;
   float: right;
   margin-right: 3vh;
   margin-left: 5px;
-  font-size: 1.5vw;
+  font-size: 1.5em;
 }
 
 
@@ -51,12 +55,10 @@ color : #FFCA37;
   padding-top: 28vh;
   font-size: 1.3vw;
   padding-left: 10%;
-  font-family: Courier, sans-serif;
+  font-family: Arial, sans-serif;
 }
 
 .about-img{
-  padding: 20%;
-  height: 75vh;
 }
 
 .projects-img{
@@ -69,23 +71,38 @@ color : #FFCA37;
   display: inline-block;
   float: left;
   font-size: 1.5vw;
+  color: white;
 }
+
+.portfolios{
+  margin-top: 5vh;
+  margin-left: 10%;
+  border: 2px solid red;
+}
+
+.portfolios .card-deck .card img{
+  height: 150px;
+  width: 150px;
+}
+
 
 .greeting{
   text-align: center;
-  margin-top: 40vh;
+  margin-top: 36vh;
 }
 
 .letschatcontainer{
   position: relative;
   /*background-color: yellow;*/
+  padding-left: 1%;
+  /*border: 2px solid red;*/
 }
 .letschat{
-  height: 100vh;
+  /*height: 100vh;*/
 }
 
 .letschat-img{
-  margin-top: 55vh;
+  padding-top: 50vh;
   width: 100%;
 }
 .linkedin{
@@ -107,7 +124,7 @@ color : #FFCA37;
 .resume{
   position: absolute;
   top : 400px;
-  right: 50px;
+  left: 900px;
   font-size: 3vw;
   color:white;
 }
