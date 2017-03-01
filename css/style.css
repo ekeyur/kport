@@ -52,13 +52,32 @@ ul{
 }
 
 .about-text{
-  padding-top: 28vh;
+  padding-top: 20vh;
   font-size: 1.3vw;
-  padding-left: 10%;
+  padding-left:3%;
+  text-align: center;
+  font-weight: lighter;
   font-family: Arial, sans-serif;
 }
 
 .about-img{
+  padding-top: 7vh;
+  padding-left: 10%;
+  width: 85%;
+}
+.projects{
+  height: 50%;
+  width: 50%;
+  float: left;
+  border: 2px solid blue;
+  padding-left: 0;
+  padding-right: 0;
+  /*padding: 10%;*/
+}
+.projectsimages{
+  height: 25%;
+  width: 25%;
+  filter: grayscale(100%);
 }
 
 .projects-img{
@@ -70,19 +89,14 @@ ul{
 .left-navbar{
   display: inline-block;
   float: left;
-  font-size: 1.5vw;
+  font-size: 1.5em;
   color: white;
 }
 
 .portfolios{
-  margin-top: 5vh;
-  margin-left: 10%;
+  margin-top: 15vh;
+  margin-left: 8%;
   border: 2px solid red;
-}
-
-.portfolios .card-deck .card img{
-  height: 150px;
-  width: 150px;
 }
 
 
