@@ -65,25 +65,49 @@ ul{
   padding-left: 10%;
   width: 85%;
 }
+
+.projects:nth-child(3){
+  clear: left;
+}
+
 .projects{
-  height: 50%;
-  width: 50%;
+  /*height: 49%;*/
+  width: 40%;
   float: left;
-  border: 2px solid blue;
-  padding-left: 0;
-  padding-right: 0;
+  border: 1px solid white;
+  padding: 3%;
+  margin: 2%;
+  /*text-align: center;*/
+
+
   /*padding: 10%;*/
 }
+.projects-text{
+  /*border: 2px solid red;*/
+  width: 50%;
+  float:right;
+  padding-left: 5%;
+  /*margin-left: 5%;*/
+}
+
+.projects-text h3{
+  padding-top: 4%;
+}
+
 .projectsimages{
-  height: 25%;
-  width: 25%;
+  height: 125px;
+  width: 125px;
   filter: grayscale(100%);
+  border-radius: 25px;
+  float:left;
 }
 
 .projects-img{
-  padding-top: 20%;
+  /*margin-left: 10%;*/
+  padding-top: 15%;
+  /*margin-left: 0;*/
   height: 75vh;
-  padding-right: 12%;
+  /*padding-right: 12%;*/
 }
 
 .left-navbar{
@@ -94,15 +118,16 @@ ul{
 }
 
 .portfolios{
-  margin-top: 15vh;
-  margin-left: 8%;
-  border: 2px solid red;
+  /*margin-top: 10vh;*/
+  margin-left: 3%;
+  margin-top: 5%;
+  /*border: 2px solid red;*/
 }
 
 
 .greeting{
   text-align: center;
-  margin-top: 36vh;
+  margin-top: 30vh;
 }
 
 .letschatcontainer{
