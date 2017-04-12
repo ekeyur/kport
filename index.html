@@ -8,6 +8,7 @@
     <link href="https://fonts.googleapis.com/css?family=Cinzel|Poiret+One" rel="stylesheet">
     <link rel="stylesheet" href="./font-awesome/css/font-awesome.css">
     <link rel="stylesheet" href="./css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js"></script>
     <script src="./js/angular.js"></script>
     <script src="./js/portfolio.js"></script>
   </head>
@@ -36,6 +37,7 @@
     <!-- Home Container -->
     <div ng-show="!homeshow" class="container greeting">
       <h1 class="name">K &nbsp E &nbsp Y &nbsp U &nbsp R &nbsp; &nbsp; P &nbsp A &nbsp T &nbsp E &nbsp L</h1>
+      <p>_______________________________________________________________________</p>
       <h2 class="position">Full Stack Developer</h2>
     </div>
 
@@ -45,24 +47,24 @@
         <img class="about-img" ng-src="img/about_letters.png" alt="about">
       </div>
       <div class="row col-lg-6 col-sm-12 about-text">
-        <p>My name is Keyur Patel. <br>I was born in India, but moved to the United States at an early age.<br> I graduated from Georgia Tech as an Industrial Engineer. Later, I worked as a management consultant where I had the opportunity to travel around the world and immerse myself into different cultures. I have over 2 years of experience in product management and recently, have added full stack web development to my skillset. I am passionate about building things that solve simple problems we face in everyday life. In my free time, I like to run, challenge others in a friendly game of ping pong and explore the ever changing field of programming.</p>
+        <p>My name is Keyur Patel. <br>I graduated from Georgia Tech as an Industrial Engineer. Later, I worked as a management consultant where I had the opportunity to travel around the world and immerse myself into different cultures. I have over 2 years of experience in product management and recently, have added full stack web development to my skillset. I am passionate about building things that solve simple problems we face in everyday life. In my free time, I like to run, challenge others in a friendly game of ping pong and explore the ever changing field of programming.</p>
       </div>
     </div>
 
     <!-- Portfolio Container -->
     <div ng-show="!portfolioshow" class="container-fluid">
-      <div class="portfolios row col-lg-8">
+      <div class="portfolios row col-lg-9">
         <div class="projects cf">
           <div class="projects-text">
-            <h3 >Grillber</h3>
+            <a href="http://grillber.com" target="_blank"><h3>Grillber</h3></a>
             <p>A rental service for grills</p>
           </div>
           <img class="projectsimages" ng-src="img/grillber.png" alt="grillber">
         </div>
         <div class="projects cf">
           <div class="projects-text">
-            <h3>Grillber</h3>
-            <p>A rental service for grills</p>
+            <a href="http://airnavatl.com" target="_blank"><h3>AirNavAtl</h3></a>
+            <p>A web app to navigate inside of airport</p>
           </div>
           <div class="projects-picture">
             <img class="projectsimages" ng-src="img/airnavatl.png" alt="airnavatl">
@@ -70,20 +72,20 @@
         </div>
         <div class="projects cf">
           <div class="projects-text">
-            <h3>Grillber</h3>
-            <p>A rental service for grills</p>
+            <a href="http://tripgoalie.com" target="_blank"><h3>TripGoalie</h3></a>
+            <p>An app to facilitate safe travel on MARTA</p>
           </div>
-          <img class="projectsimages" ng-src="img/fabulari.png" alt="fabulari">
+          <img class="projectsimages" ng-src="img/tripgoalie.png" alt="fabulari">
         </div>
         <div class="projects cf">
           <div class="projects-text">
-            <h3>Grillber</h3>
-            <p>A rental service for grills</p>
+            <a href="http://fabulari.org" target="_blank"><h3>Fabulari</h3></a>
+            <p>Communication app for kids with disablities</p>
           </div>
-          <img class="projectsimages" ng-src="img/tripgoalie.png" alt="tripgoalie">
+          <img class="projectsimages" ng-src="img/fabulari.png" alt="tripgoalie">
         </div>
       </div>
-      <div class="row col-lg-4">
+      <div class="row col-lg-3">
         <img class="projects-img" ng-src="img/projects_letters.png" alt="about">
       </div>
     </div>
@@ -121,7 +123,7 @@
         <div class="hovereffect">
           <img src="img/airnavatl.png" alt="">
             <div class="overlay">
-              <a href="http://airnavatl.com" target="_blank"><h2>Demo</h2></a>
+              <a href="http://airnavatl.com" target="_blank"><h3>Demo</h3></a>
               <p>
 					      <a href="https://github.com/DigitalCrafts-September-2016-Cohort/the_a_team2.git">Github</a>
 				      </p>

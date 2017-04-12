@@ -1,3 +1,6 @@
+body{
+  overflow: none;
+}
 
 .cf:before,
 .cf:after {
@@ -84,30 +87,28 @@ ul{
 }
 .projects-text{
   /*border: 2px solid red;*/
-  width: 50%;
+  width: 55%;
   float:right;
-  padding-left: 5%;
+  /*padding-left: 1%;*/
   /*margin-left: 5%;*/
 }
 
 .projects-text h3{
-  padding-top: 4%;
+  padding-bottom: 1%;
 }
 
 .projectsimages{
-  height: 125px;
-  width: 125px;
+  height: 110px;
+  width: 110px;
   filter: grayscale(100%);
   border-radius: 25px;
   float:left;
 }
 
 .projects-img{
-  /*margin-left: 10%;*/
-  padding-top: 15%;
-  /*margin-left: 0;*/
-  height: 75vh;
-  /*padding-right: 12%;*/
+  margin-top: 75%;
+  width: 150%;
+  margin-left: -40%;
 }
 
 .left-navbar{
@@ -121,9 +122,16 @@ ul{
   /*margin-top: 10vh;*/
   margin-left: 3%;
   margin-top: 5%;
+  /*height: 100vh;*/
   /*border: 2px solid red;*/
 }
-
+.projects-text a {
+  text-decoration: none;
+  color: white;
+}
+.projects-text a:hover {
+  color: #FFCA37;
+}
 
 .greeting{
   text-align: center;
@@ -136,14 +144,13 @@ ul{
   padding-left: 1%;
   /*border: 2px solid red;*/
 }
-.letschat{
-  /*height: 100vh;*/
-}
 
 .letschat-img{
-  padding-top: 50vh;
-  width: 100%;
+  padding-top: 40vh;
+  width: 130%;
+  margin-left:10%;
 }
+
 .linkedin{
   position: absolute;
   top : 70px;
@@ -190,7 +197,7 @@ ul{
 }
 
 .position{
-  padding-top: 3%;
+  padding-top: 1%;
   font-family: Courier, sans-serif;
   font-size: 2vw;
   font-weight: lighter;

@@ -33,6 +33,4 @@ $scope.letschateClicked = function(){
   $scope.letschatshow = false;
 };
 
-
-
 });
