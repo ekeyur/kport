@@ -27,6 +27,7 @@
     padding: 4px;
     font-family: Courier, sans-serif;
     color : grey;
+    font-size: 1.1em;
   }
 
   li:hover{
@@ -63,6 +64,8 @@
 
   .about-img{
     width: 75%;
+    margin-top: 5vh;
+    margin-left: 20px;
   }
 
   /*.projects:nth-child(3){
@@ -235,6 +238,9 @@
   .projectsimgages{
     margin-right: 20px;
   }
+  li{
+    font-size: .8em;
+  }
 
 }
 
@@ -245,6 +251,8 @@
 .projectsimages{
   float: right;
 }
-
+li{
+font-size:  .6em;
+}
 
 }
