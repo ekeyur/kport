@@ -1,204 +1,250 @@
-body{
-  overflow: none;
-}
 
-.cf:before,
-.cf:after {
-    content: " ";
-    display: table;
-}
-.cf:after {
-    clear: both;
-}
+  body{
+    overflow: none;
+  }
 
+  .cf:before,
+  .cf:after {
+      content: " ";
+      display: table;
+  }
+  .cf:after {
+      clear: both;
+  }
 
-body{
-  background-image: url("background.jpg");
-  background-repeat:no-repeat;
-  background-size: cover;
-  height: 100vh;
-  background-position: 50% 50%;
-  color: white;
-  padding: 0;
-}
+  body{
+    background-image: url("background.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: 50% 50%;
+    color: white;
+    padding: 0;
+  }
 
-li{
-  display: inline;
-  padding: 4px;
-  font-family: Courier, sans-serif;
-  color : grey;
-}
+  li{
+    display: inline;
+    padding: 4px;
+    font-family: Courier, sans-serif;
+    color : grey;
+  }
 
-li:hover{
-color : #FFCA37;
-}
-
-ul{
-  padding-left: 1%;
-}
-
-.navigation{
-  margin-top: 2vh;
-}
-
-.right-navbar {
-  display: inline-block;
-  float: right;
-  margin-right: 3vh;
-  margin-left: 5px;
-  font-size: 1.5em;
-}
-
-
-.active {
+  li:hover{
   color : #FFCA37;
+  }
+
+  ul{
+    padding-left: 1%;
+  }
+
+  .navigation{
+    margin-top: 2vh;
+  }
+
+  .right-navbar {
+    display: inline-block;
+    float: right;
+    margin-right: 5px;
+    font-size: 1.5em;
+  }
+
+
+  .active {
+    color : #FFCA37;
+  }
+
+  .about-text{
+    padding-top: 40vh;
+    padding-left:3%;
+    font-size: 1.3em;
+    font-weight: lighter;
+    font-family: Arial, sans-serif;
+  }
+
+  .about-img{
+    width: 75%;
+  }
+
+  /*.projects:nth-child(3){
+    clear: left;
+  }*/
+
+  .projects{
+    /*height: 49%;*/
+    width: 40%;
+    float: left;
+    border: 1px solid white;
+    padding: 3%;
+    margin: 2%;
+  }
+  .projects-text{
+    width: 55%;
+    float:right;
+    margin-right: 5px;
+  }
+
+  .projects-text h3{
+    padding-bottom: 1%;
+  }
+
+  .projectsimages{
+    height: 110px;
+    width: 110px;
+    filter: grayscale(100%);
+    border-radius: 25px;
+    float:left;
+  }
+
+  .projects-img{
+    margin-top: 75%;
+    width: 150%;
+    margin-left: -40%;
+  }
+
+  .left-navbar{
+    display: inline-block;
+    float: left;
+    font-size: 1.5em;
+    color: white;
+  }
+
+  .portfolios{
+    /*margin-top: 10vh;*/
+    margin-left: 3%;
+    margin-top: 5%;
+    /*height: 100vh;*/
+    /*border: 2px solid red;*/
+  }
+  .projects-text a {
+    text-decoration: none;
+    color: white;
+  }
+  .projects-text a:hover {
+    color: #FFCA37;
+  }
+
+  .greeting{
+    text-align: center;
+    margin-top: 30vh;
+  }
+
+  .letschatcontainer{
+    position: relative;
+    /*background-color: yellow;*/
+    padding-left: 1%;
+    /*border: 2px solid red;*/
+  }
+
+  .letschat-img{
+    padding-top: 40vh;
+    width: 130%;
+    margin-left:10%;
+  }
+
+  .linkedin{
+    position: absolute;
+    top : 70px;
+    left: 150px;
+    font-size: 3.5vw;
+    color:white;
+  }
+
+  .envelope{
+    position: absolute;
+    top : 275px;
+    left: 520px;
+    font-size: 3.5vw;
+    color:white;
+  }
+
+  .resume{
+    position: absolute;
+    top : 400px;
+    left: 900px;
+    font-size: 3vw;
+    color:white;
+  }
+
+  .medium{
+    position: absolute;
+    top : 600px;
+    left: 600px;
+    font-size: 3vw;
+    color:white;
+  }
+
+  .github{
+    position: absolute;
+    top : 100px;
+    left: 800px;
+    font-size: 3.5vw;
+    color:white;
+  }
+
+  .name {
+    font-family: 'Cinzel', serif;
+    font-size: 4vw;
+  }
+
+  .position{
+    padding-top: 1%;
+    font-family: Courier, sans-serif;
+    font-size: 2vw;
+    font-weight: lighter;
+  }
+
+@media (max-width: 1200px) {
+  .position{
+    padding-top: 1%;
+    font-family: Courier, sans-serif;
+    font-size: 5vw;
+    font-weight: lighter;
+  }
+
+  .greeting{
+    font-size: 1.5em;
+    text-align: center;
+    margin-top: 15vh;
+  }
+
+  .about-text{
+    font-size: 1.1em;
+    padding-top: 5vh;
+  }
+
+  .about-img{
+    width: 70%;
+    margin-left: 45px;
+  }
+
+  .projects{
+    width: 40%;
+    border: 1px solid white;
+    margin: 5px auto;
+  }
+
+  .projects-img{
+    margin-left: 20%;
+    margin-top: 1%;
+    width: 50%;
+  }
+
+  .letschat-img{
+    display: block;
+  }
+  .projectsimgages{
+    margin-right: 20px;
+  }
+
 }
 
-.about-text{
-  padding-top: 20vh;
-  font-size: 1.3vw;
-  padding-left:3%;
-  text-align: center;
-  font-weight: lighter;
-  font-family: Arial, sans-serif;
-}
-
-.about-img{
-  padding-top: 7vh;
-  padding-left: 10%;
-  width: 85%;
-}
-
-.projects:nth-child(3){
-  clear: left;
-}
-
-.projects{
-  /*height: 49%;*/
-  width: 40%;
-  float: left;
-  border: 1px solid white;
-  padding: 3%;
-  margin: 2%;
-  /*text-align: center;*/
-
-
-  /*padding: 10%;*/
-}
+@media (max-width: 678px) {
 .projects-text{
-  /*border: 2px solid red;*/
-  width: 55%;
-  float:right;
-  /*padding-left: 1%;*/
-  /*margin-left: 5%;*/
-}
-
-.projects-text h3{
-  padding-bottom: 1%;
-}
-
-.projectsimages{
-  height: 110px;
-  width: 110px;
-  filter: grayscale(100%);
-  border-radius: 25px;
-  float:left;
-}
-
-.projects-img{
-  margin-top: 75%;
-  width: 150%;
-  margin-left: -40%;
-}
-
-.left-navbar{
-  display: inline-block;
   float: left;
-  font-size: 1.5em;
-  color: white;
+}
+.projectsimages{
+  float: right;
 }
 
-.portfolios{
-  /*margin-top: 10vh;*/
-  margin-left: 3%;
-  margin-top: 5%;
-  /*height: 100vh;*/
-  /*border: 2px solid red;*/
-}
-.projects-text a {
-  text-decoration: none;
-  color: white;
-}
-.projects-text a:hover {
-  color: #FFCA37;
-}
 
-.greeting{
-  text-align: center;
-  margin-top: 30vh;
-}
-
-.letschatcontainer{
-  position: relative;
-  /*background-color: yellow;*/
-  padding-left: 1%;
-  /*border: 2px solid red;*/
-}
-
-.letschat-img{
-  padding-top: 40vh;
-  width: 130%;
-  margin-left:10%;
-}
-
-.linkedin{
-  position: absolute;
-  top : 70px;
-  left: 150px;
-  font-size: 3.5vw;
-  color:white;
-}
-
-.envelope{
-  position: absolute;
-  top : 275px;
-  left: 520px;
-  font-size: 3.5vw;
-  color:white;
-}
-
-.resume{
-  position: absolute;
-  top : 400px;
-  left: 900px;
-  font-size: 3vw;
-  color:white;
-}
-
-.medium{
-  position: absolute;
-  top : 600px;
-  left: 600px;
-  font-size: 3vw;
-  color:white;
-}
-
-.github{
-  position: absolute;
-  top : 100px;
-  left: 800px;
-  font-size: 3.5vw;
-  color:white;
-}
-
-.name {
-  font-family: 'Cinzel', serif;
-  font-size: 4vw;
-}
-
-.position{
-  padding-top: 1%;
-  font-family: Courier, sans-serif;
-  font-size: 2vw;
-  font-weight: lighter;
 }
