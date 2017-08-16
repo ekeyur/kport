@@ -100,7 +100,7 @@
 
   .projects-img{
     margin-top: 75%;
-    width: 150%;
+    width: 140%;
     margin-left: -40%;
   }
 
@@ -133,9 +133,6 @@
 
   .letschatcontainer{
     position: relative;
-    /*background-color: yellow;*/
-    padding-left: 1%;
-    /*border: 2px solid red;*/
   }
 
   .letschat-img{
@@ -232,20 +229,56 @@
     max-width: 50%;
   }
 
-  .letschat-img{
-    display: block;
-  }
   .projectsimgages{
     margin-right: 20px;
   }
   li{
     font-size: .8em;
   }
-    .letschat-img{
-      padding-top: 37vh;
-      max-width: 70vh;
-      margin-left:10vh;
-    }
+  .letschat-img{
+    padding-top: 0;
+    max-width: 30%;
+    margin-left: 0;
+
+  }
+
+  .github{
+    position: absolute;
+    top : 80px;
+    left: 150px;
+    font-size: 5.5vw;
+    color:white;
+  }
+
+  .resume{
+    position: absolute;
+    top : 77px;
+    left: 360px;
+    font-size: 4.5vw;
+    color:white;
+  }
+  .linkedin{
+    position: absolute;
+    top : 14px;
+    left: 57px;
+    font-size: 5.5vw;
+    color:white;
+  }
+  .medium{
+    position: absolute;
+    top : 200px;
+    left: 57px;
+    font-size: 5.5vw;
+    color:white;
+  }
+
+  .envelope{
+    position: absolute;
+    top : 157px;
+    left: 263px;
+    font-size: 4.5vw;
+    color:white;
+  }
 }
 
 @media (max-width: 678px) {
@@ -262,4 +295,51 @@ font-size:  .6em;
   max-width: 30%
 }
 
+}
+
+@media (max-width: 768px){
+  .letschat-img{
+    padding-top: 0;
+    max-width: 30%;
+    margin-left: 0;
+
+  }
+
+  .github{
+    position: absolute;
+    top : 80px;
+    left: 150px;
+    font-size: 5.5vw;
+    color:white;
+  }
+
+  .resume{
+    position: absolute;
+    top : 77px;
+    left: 360px;
+    font-size: 4.5vw;
+    color:white;
+  }
+  .linkedin{
+    position: absolute;
+    top : 14px;
+    left: 57px;
+    font-size: 5.5vw;
+    color:white;
+  }
+  .medium{
+    position: absolute;
+    top : 200px;
+    left: 57px;
+    font-size: 5.5vw;
+    color:white;
+  }
+
+  .envelope{
+    position: absolute;
+    top : 157px;
+    left: 263px;
+    font-size: 4.5vw;
+    color:white;
+  }
 }
