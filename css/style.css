@@ -57,7 +57,7 @@
   }
 
   .about-text{
-    padding-top: 40vh;
+    padding-top: 25vh;
     padding-left:3%;
     font-size: 1.3em;
     font-weight: lighter;
@@ -212,11 +212,6 @@
     font-size: 1.5em;
     text-align: center;
     margin-top: 15vh;
-  }
-
-  .about-text{
-    font-size: 1.1em;
-    padding-top: 5vh;
   }
 
   .about-img{
