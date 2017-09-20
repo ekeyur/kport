@@ -15,24 +15,24 @@
     <nav class="container-fluid navigation">
       <div class="left-navbar">
         <ul>
-          <li ng-click="homeClicked()"><i class="fa fa-home fa-2x" aria-hidden="true" ng-class="{active: !homeshow}"></i></li>
+          <li ng-click="homeClicked()"><i class="fa fa-home fa-2x pointer" aria-hidden="true" ng-class="{active: !homeshow}"></i></li>
         </ul>
       </div>
       <div class="right-navbar">
         <ul>
-          <li ng-click="aboutClicked()" ng-class="{active: !aboutshow}">about</li>
-          <li>/</li>
-          <li ng-click="portfolioClicked()" ng-class="{active: !portfolioshow}">portfolio</li>
-          <li>/</li>
-          <li ng-click="letschateClicked()" ng-class="{active: !letschatshow}">let's chat</li>
-          <li></li>
+          <li ng-click="aboutClicked()" class="pointer" ng-class="{active: !aboutshow}">about</li>
+          <li>.</li>
+          <li ng-click="portfolioClicked()" class="pointer" ng-class="{active: !portfolioshow}">portfolio</li>
+          <li>.</li>
+          <li ng-click="letschateClicked()" class="pointer" ng-class="{active: !letschatshow}">let's chat</li>
+          <li>.</li>
         </ul>
       </div>
     </nav>
 
     <!-- Home Container -->
     <div ng-show="!homeshow" class="container greeting">
-      <h1 class="name">K &nbsp E &nbsp Y &nbsp U &nbsp R &nbsp; &nbsp; P &nbsp A &nbsp T &nbsp E &nbsp L</h1>
+      <h1 class="name">KEYUR PATEL</h1>
       <p>_______________________________________________________________________</p>
       <h2 class="position">Full Stack Developer</h2>
     </div>
