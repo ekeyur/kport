@@ -12,6 +12,10 @@
       clear: both;
   }
 
+  .open-sans{
+    font-family: 'Open Sans', 'sans-serif';
+  }
+
   body{
     background-image: url("background.jpg");
     background-repeat:no-repeat;
@@ -61,7 +65,9 @@
     padding-left:3%;
     font-size: 1.3em;
     font-weight: lighter;
-    font-family: Arial, sans-serif;
+    font-family: 'Open Sans', 'sans-serif';
+    text-align: justify;
+    text-justify: inter-word;
   }
 
   .about-img{
@@ -297,6 +303,9 @@ font-size:  .6em;
   max-width: 30%
 }
 
+.about-text {
+  margin-top: -50px;
+}
 }
 
 @media (max-width: 768px){
