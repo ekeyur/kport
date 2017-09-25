@@ -8,6 +8,7 @@
     <link href="https://fonts.googleapis.com/css?family=Cinzel|Poiret+One" rel="stylesheet">
     <link rel="stylesheet" href="./font-awesome/css/font-awesome.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+     <script type="text/javascript" src="https://cdn.rawgit.com/codekraft-studio/angular-typed/master/dist/angular-typed.min.js"></script>
     <link rel="stylesheet" href="./css/style.css">
     <script src="./js/angular.js"></script>
     <script src="./js/portfolio.js"></script>
@@ -33,9 +34,11 @@
 
     <!-- Home Container -->
     <div ng-show="!homeshow" class="container greeting">
-      <h1 class="name">KEYUR PATEL</h1>
+      <h1  class="name">KEYUR PATEL</h1>
       <p>_______________________________________________________________________</p>
-      <h2 class="position">Full Stack Developer</h2>
+      <!-- <h2 typed start-timeout="500" type-speed="100" remove-line class="position">Engineer</h2>
+      <h2 typed start-timeout="500" type-speed="100" remove-line class="position">Front End Developerr</h2> -->
+      <h2 typed loop="true" start-timeout="500" type-speed="100" cursor="false" remove-line class="position">Full Stack Developer</h2>
     </div>
 
     <!-- About Container -->
@@ -103,5 +106,6 @@
         </div>
       </div>
     </div>
+    <script type="text/javascript" src="https://cdn.rawgit.com/codekraft-studio/angular-typed/master/dist/angular-typed.min.js"></script>
   </body>
 </html>

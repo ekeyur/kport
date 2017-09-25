@@ -1,4 +1,4 @@
-var app = angular.module('portfolio', []);
+var app = angular.module('portfolio', ['angular-typed']);
 app.controller('portfolioController', function($scope, $timeout, $interval) {
 $scope.homeshow = false;
 $scope.aboutshow = true;
